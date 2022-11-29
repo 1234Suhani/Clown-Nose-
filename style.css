@@ -1,0 +1,21 @@
+canvas{
+    border-color: grey;
+    border-style: dashed;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes example{
+    from{
+        box-shadow: 1px 1px 38px rgb(0, 119, 255);
+    }
+    to{
+        box-shadow: 1px 1px 38px darkblue;
+    }
+}
+
+.Realtime{
+    font-size: 20px;
+}
